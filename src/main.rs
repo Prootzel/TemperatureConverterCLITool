@@ -1,5 +1,5 @@
-use std::{ffi::FromVecWithNulError, io::{self}, process::exit};
-
+#![allow(unused)]
+use std::{io::{self}, process::exit};
 fn main() {
     println!("Temperature converter");
     loop{
